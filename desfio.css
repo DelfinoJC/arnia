@@ -1,0 +1,111 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+.container {
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%),url(https://assets.nflxext.com/ffe/siteui/vlv3/51e53f54-0d9f-40ec-9e05-c030def06ac9/5ce0ee63-07e5-462b-adfc-a10535f54e0f/BR-pt-20230515-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 95vh;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+}
+
+.container .logo img {
+    width: 150px;
+    height: 40px;
+}
+
+.idioma button {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#idioma-select {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    color: white;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+}
+
+.texto h2 {
+    font-size: 60px;
+}
+
+.texto p {
+    font-size: 23px;
+}
+
+.seila input {
+    width:  470px;
+    height: 45px;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.seila button {
+    width: 200px;
+    height: 53px;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.papo {
+    position: relative;
+    margin: 0 250px;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    width: 820px;
+    height: 120px;
+    background: rgb( 14, 27, 79 );
+    background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: white;
+}
+
+.papo .pipoca {
+    margin: 7px 20px;
+    color: white;
+    font-size: ;
+
+}
+
+.papo .pipoca img {
+    width: 90px;
+    height: 90px;
+}
+
+.invocado {
+    flex-direction: row;
+    background-color: white;
+    border: solid red 3px;
+
+}
+
+.invocado .bomba1{
+
+}
+
+.invocado .lencol1
